@@ -1,0 +1,17 @@
+Tagcrypt safety notice — version 4 (2026-10-11)
+
+Tagcrypt encrypts text on this device and can store the encrypted record on an NFC tag or as a QR image. Those media contain ciphertext, not the secret or passphrase.
+
+NFC tags and QR images can be copied or replayed. Anyone with a copy of a passphrase-based record can make offline guesses. Weak or reused passphrases put records at greater risk; encryption cannot compensate for a guessable phrase. Prefer a generated or unique, strong passphrase.
+
+Generated passphrases are saved in this device's Keychain and do not sync or move to another phone. Passphrases you use, generated or custom, are saved with their labels in the encrypted, on-device Recovery Vault after a verified NFC write or when you tap Save. The Vault does not sync. Its optional device-authentication viewing prompt is an app-level check, not a separate hardware-backed lock on the Vault file. Vault backups are encrypted with a separate export passphrase. Tagcrypt does not save your plaintext secret in the Recovery Vault.
+
+Keep an independent recovery copy of both the secret and its passphrase. If you lose the passphrase, or the phone that holds its only copy, the encrypted record may be unrecoverable. Do not make an NFC tag or QR image the only copy of important recovery material.
+
+A successful NFC write is read back and compared during that NFC session. This does not guarantee that the tag will remain readable later or that another backup exists. Keep the original secret until you have independently read and decrypted a copy. When a tag already holds data, Tagcrypt follows your overwrite setting; a skipped or refused tag is left unchanged, even though iOS may show a tick.
+
+Optional NTAG password mode writes a derived 32-bit password and configuration to model-identified NTAG213/215/216 tags after an encrypted-record write verifies. This password is transmitted without encryption and only deters casual overwrites; it does not provide secrecy or anti-cloning protection. Incompatible or counterfeit tags may fail partway through configuration. Back up the master key and keep another copy of the secret before enabling it. Permanent sealing is a separate, irreversible action limited to model-identified NTAG213/215/216 tags. It freezes user memory, the Capability Container and the configuration pages, so the tag reports read-only and cannot later be password-protected. Raw-page storage and unused-page randomisation are also optional and off by default. These features are experimental and have not yet been validated on a physical tag. Never use them on a valuable tag.
+
+FIDO2 PRF is optional and works only with supported operating systems and compatible authenticators. Joint-factor records retain a separate passphrase-only emergency route; FIDO-key-only records do not. Losing every selected key for a FIDO-only record makes its secret unrecoverable. Tagcrypt is not a FIDO2 security key, secure element, hardware wallet, or anti-cloning system.
+
+Tagcrypt has no user account or server-side copy. The onboarding acknowledgement is stored on this device. It does not prove identity, guarantee recovery, or replace legal terms or professional advice.

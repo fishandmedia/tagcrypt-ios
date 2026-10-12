@@ -1,0 +1,17 @@
+Tagcrypt safety notice — version 3
+
+Tagcrypt encrypts text on this device and can store the encrypted record on an NFC tag or as a QR image. Those media contain ciphertext, not the secret or passphrase. One record can hold one secret or several named secrets that open together.
+
+NFC tags and QR images can be copied or replayed. Anyone with a copy can make offline guesses at the passphrase. A weak or reused passphrase can put the secret at risk; encryption cannot compensate for a guessable passphrase. Generated passphrases are recommended. Tagcrypt does not measure custom passphrase strength.
+
+Generated passphrases are saved in this device's Keychain and do not sync or move to another phone. You can choose to save generated or custom phrases and labels in the encrypted on-device Recovery Vault. The Vault does not sync. Its optional device-authentication viewing prompt is an app-level check, not a separate hardware-backed lock on the Vault file. Device passcode can be used as a fallback. Vault backups, including CSV backups, are encrypted with a separate export passphrase. Tagcrypt does not save your plaintext secret in the Recovery Vault.
+
+Keep an independent recovery copy of both the secret and the passphrase. If you lose the passphrase, or the phone that holds its only copy, the encrypted record may be unrecoverable. Do not make an NFC tag or QR image the only copy of an important password, recovery phrase, or key.
+
+A successful NFC write is read back and compared during that NFC session. Each scan writes to one tag. Read-back does not guarantee that a tag will remain readable later or that another backup exists. Keep the original secret until you have independently read and decrypted a copy.
+
+FIDO2 PRF is optional and works only with supported operating systems and authenticators. You can create passphrase-only, FIDO-key-only, or joint-factor records. Joint-factor records normally require the passphrase and one selected FIDO key, and retain a separate passphrase-only emergency route. FIDO-key-only records have no passphrase recovery; losing every selected key makes the secret unrecoverable. Tagcrypt can optionally request the security key's own PIN during unlock; the PIN is set on the key, not in Tagcrypt, and repeated wrong entries may lock that key. FIDO credentials do not provide a hardware serial or prove that multiple credentials belong to different physical keys.
+
+Tagcrypt is not a FIDO2 security key, secure element, hardware wallet, or anti-cloning system. Use the app on a device you trust and keep recovery material independently.
+
+Tagcrypt has no user account or server-side copy. The first-use acknowledgement is stored on this device. It does not prove identity, guarantee recovery, or replace legal terms or professional advice.
