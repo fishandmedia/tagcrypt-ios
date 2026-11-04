@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357B8A6F3077197A0002B24E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3524375D3077191800DF9B80 /* PrivacyInfo.xcprivacy */; };
+		A10000000000000000000001 /* TagcryptApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* TagcryptApp.swift */; };
+		A10000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* ContentView.swift */; };
+		A10000000000000000000003 /* VaultCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* VaultCrypto.swift */; };
+		A10000000000000000000004 /* NFCService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* NFCService.swift */; };
+		A10000000000000000000005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* Assets.xcassets */; };
+		A10000000000000000000006 /* QRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* QRService.swift */; };
+		A10000000000000000000007 /* FIDOKeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* FIDOKeyService.swift */; };
+		A10000000000000000000008 /* FIDOEnvelopeCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* FIDOEnvelopeCrypto.swift */; };
+		A10000000000000000000009 /* SafetyNoticeV4.txt in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* SafetyNoticeV4.txt */; };
+		A10000000000000000000018 /* LLM.md in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* LLM.md */; };
+		A10000000000000000000010 /* V11Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* V11Features.swift */; };
+		A10000000000000000000014 /* NTAG21xProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* NTAG21xProtocol.swift */; };
+		A10000000000000000000015 /* TagLockCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* TagLockCrypto.swift */; };
+		A10000000000000000000017 /* FirstRunOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* FirstRunOnboarding.swift */; };
+		A10000000000000000000011 /* RecoveryShares.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* RecoveryShares.swift */; };
+		A10000000000000000000012 /* Sodium in Frameworks */ = {isa = PBXBuildFile; productRef = A90000000000000000000002 /* Sodium */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3524375D3077191800DF9B80 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A20000000000000000000001 /* TagcryptApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagcryptApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* VaultCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultCrypto.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* NFCService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCService.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* Tagcrypt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tagcrypt.entitlements; sourceTree = "<group>"; };
+		A20000000000000000000007 /* Tagcrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tagcrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000009 /* QRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRService.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* FIDOKeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIDOKeyService.swift; sourceTree = "<group>"; };
+		A20000000000000000000011 /* FIDOEnvelopeCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIDOEnvelopeCrypto.swift; sourceTree = "<group>"; };
+		A20000000000000000000012 /* SafetyNoticeV4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = SafetyNoticeV4.txt; sourceTree = "<group>"; };
+		A20000000000000000000018 /* LLM.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LLM.md; sourceTree = SOURCE_ROOT; };
+		A20000000000000000000013 /* V11Features.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = V11Features.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* NTAG21xProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTAG21xProtocol.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* RecoveryShares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryShares.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* TagLockCrypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagLockCrypto.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* FirstRunOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRunOnboarding.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000012 /* Sodium in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A20000000000000000000006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* Tagcrypt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000001 /* Tagcrypt */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* TagcryptApp.swift */,
+				A20000000000000000000002 /* ContentView.swift */,
+				A20000000000000000000003 /* VaultCrypto.swift */,
+				A20000000000000000000004 /* NFCService.swift */,
+				A20000000000000000000009 /* QRService.swift */,
+				A20000000000000000000010 /* FIDOKeyService.swift */,
+				A20000000000000000000011 /* FIDOEnvelopeCrypto.swift */,
+				A20000000000000000000005 /* Tagcrypt.entitlements */,
+				A20000000000000000000008 /* Assets.xcassets */,
+				3524375D3077191800DF9B80 /* PrivacyInfo.xcprivacy */,
+				A20000000000000000000012 /* SafetyNoticeV4.txt */,
+				A20000000000000000000018 /* LLM.md */,
+				A20000000000000000000013 /* V11Features.swift */,
+				A20000000000000000000015 /* NTAG21xProtocol.swift */,
+				A20000000000000000000014 /* RecoveryShares.swift */,
+				A20000000000000000000016 /* TagLockCrypto.swift */,
+				A20000000000000000000017 /* FirstRunOnboarding.swift */,
+			);
+			path = Tagcrypt;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* Tagcrypt */,
+				A20000000000000000000006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50000000000000000000001 /* Tagcrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "Tagcrypt" */;
+			buildPhases = (
+				A40000000000000000000001 /* Sources */,
+				A40000000000000000000002 /* Frameworks */,
+				A40000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			packageProductDependencies = (
+				A90000000000000000000002 /* Sodium */,
+			);
+			name = Tagcrypt;
+			productName = Tagcrypt;
+			productReference = A20000000000000000000007 /* Tagcrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					A50000000000000000000001 = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "Tagcrypt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30000000000000000000002;
+			productRefGroup = A20000000000000000000006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50000000000000000000001 /* Tagcrypt */,
+			);
+			packageReferences = (
+				A90000000000000000000001 /* XCRemoteSwiftPackageReference "swift-sodium" */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357B8A6F3077197A0002B24E /* PrivacyInfo.xcprivacy in Resources */,
+				A10000000000000000000005 /* Assets.xcassets in Resources */,
+				A10000000000000000000009 /* SafetyNoticeV4.txt in Resources */,
+				A10000000000000000000018 /* LLM.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* TagcryptApp.swift in Sources */,
+				A10000000000000000000002 /* ContentView.swift in Sources */,
+				A10000000000000000000003 /* VaultCrypto.swift in Sources */,
+				A10000000000000000000004 /* NFCService.swift in Sources */,
+				A10000000000000000000006 /* QRService.swift in Sources */,
+				A10000000000000000000007 /* FIDOKeyService.swift in Sources */,
+				A10000000000000000000008 /* FIDOEnvelopeCrypto.swift in Sources */,
+				A10000000000000000000010 /* V11Features.swift in Sources */,
+				A10000000000000000000014 /* NTAG21xProtocol.swift in Sources */,
+				A10000000000000000000015 /* TagLockCrypto.swift in Sources */,
+				A10000000000000000000017 /* FirstRunOnboarding.swift in Sources */,
+				A10000000000000000000011 /* RecoveryShares.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A70000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A70000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A70000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tagcrypt/Tagcrypt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 46;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tagcrypt;
+				INFOPLIST_KEY_CFBundleName = Tagcrypt;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Tagcrypt reads and writes encrypted vault records to NFC tags.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Tagcrypt uses the camera to scan encrypted QR records.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Tagcrypt asks for Face ID before showing protected Recovery Vault entries.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Tagcrypt saves encrypted QR images to your Photos library when you choose Save to Photos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fishandmedia.tagcrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A70000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tagcrypt/Tagcrypt.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 46;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tagcrypt;
+				INFOPLIST_KEY_CFBundleName = Tagcrypt;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Tagcrypt reads and writes encrypted vault records to NFC tags.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Tagcrypt uses the camera to scan encrypted QR records.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Tagcrypt asks for Face ID before showing protected Recovery Vault entries.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Tagcrypt saves encrypted QR images to your Photos library when you choose Save to Photos.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fishandmedia.tagcrypt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "Tagcrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000001 /* Debug */,
+				A70000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "Tagcrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70000000000000000000003 /* Debug */,
+				A70000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A90000000000000000000001 /* XCRemoteSwiftPackageReference "swift-sodium" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jedisct1/swift-sodium.git";
+			requirement = {
+				kind = exactVersion;
+				version = 0.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A90000000000000000000002 /* Sodium */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A90000000000000000000001 /* XCRemoteSwiftPackageReference "swift-sodium" */;
+			productName = Sodium;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A60000000000000000000001 /* Project object */;
+}
