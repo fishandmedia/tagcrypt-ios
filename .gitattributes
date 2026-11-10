@@ -17,3 +17,4 @@
 *.woff2 binary
 *.ttf binary
 *.otf binary
+tests/csv-import/*.csv -text

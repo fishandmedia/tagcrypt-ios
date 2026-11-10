@@ -1,0 +1,2 @@
+tagcrypt_csv_v1,record,title,secret,tag,unlock
+record,,,SAMPLE_ONLY_wrong_header_no_nickname_column,NTAG215,passphrase

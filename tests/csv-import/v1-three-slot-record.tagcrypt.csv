@@ -1,0 +1,4 @@
+tagcrypt_csv_v1,record,title,secret,nickname,tag,unlock
+slot,home,Wi-Fi,SAMPLE_ONLY_wifi_key_1234,Home router,NTAG216,passphrase
+slot,home,Alarm PIN,SAMPLE_ONLY_4821,,,
+slot,home,"Router admin, web","SAMPLE_ONLY_""quoted"" pw",,,

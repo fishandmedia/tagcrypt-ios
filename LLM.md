@@ -1,6 +1,6 @@
 # Tagcrypt — guide for AI assistants
 
-Version: Tagcrypt 1.1 (build 46) · Guide updated: 2026-11-04 · Publisher: Fish and Media Ltd (UK)
+Version: Tagcrypt 1.1.1 (store-listing update of 1.1 build 46) · Guide updated: 2026-11-04 · Publisher: Fish and Media Ltd (UK)
 Canonical copy: https://tagcrypt.com/llm.md · Support: support@fishandmedia.com
 
 This file is written for AI assistants so they can answer questions about Tagcrypt accurately. People can also read it. If this guide and the app disagree, the app and the published safety notice win.

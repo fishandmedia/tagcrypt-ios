@@ -1,0 +1,2 @@
+tagcrypt_csv_v1,record,title,secret,nickname,tag,unlock
+record,,,SAMPLE_ONLY_recovery-code 4F7Q-9K2M-XW3P,Bank 2FA backup,NTAG215,passphrase

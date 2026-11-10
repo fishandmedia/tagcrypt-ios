@@ -1,5 +1,9 @@
 # Tagcrypt
 
+**Source version on GitHub: 1.1.1 · App Store version: 1.1.1**
+
+The plain CSV import spec ([docs/CSV_IMPORT_V1.md](docs/CSV_IMPORT_V1.md)) is published ahead of the feature; the import itself is planned for 1.1.2 and is not in this source.
+
 Tagcrypt encrypts short secrets on the device and stores the encrypted record on an NFC tag or in a QR code. It has no account or server-side encryption service.
 
 Tagcrypt 1.1 is available on the App Store: https://apps.apple.com/gb/app/id6820691760
@@ -39,7 +43,7 @@ First launch uses a five-card, non-dismissible setup flow. Users can set appeara
 
 ## Build verification
 
-The 1.1 source is released as marketing version 1.1 (build 46). The generic iOS Simulator build succeeds, and the four standalone Swift harnesses and the Python suite pass. Physical NFC/FIDO behaviour is validated on real hardware as it becomes available (clone tags, password provisioning and sealing, Argon2 latency on the oldest supported iPhone). A simulator build does not establish NFC behaviour.
+The 1.1 source is released as marketing version 1.1 (build 46); 1.1.1 is a store-listing update (new screenshots, subtitle, keywords, AI-guide wording), no functional change. The generic iOS Simulator build succeeds, and the four standalone Swift harnesses and the Python suite pass. Physical NFC/FIDO behaviour is validated on real hardware as it becomes available (clone tags, password provisioning and sealing, Argon2 latency on the oldest supported iPhone). A simulator build does not establish NFC behaviour.
 
 ## Tests
 
