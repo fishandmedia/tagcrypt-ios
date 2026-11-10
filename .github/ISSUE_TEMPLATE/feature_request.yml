@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest an idea for Tagcrypt.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please **never paste a secret, passphrase or tag dump** here. This page is public.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What do you want to do?
+      description: Describe the problem or goal, not only the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: dropdown
+    id: tag_type
+    attributes:
+      label: Tag type
+      options:
+        - NFC
+        - QR
+        - Both
+        - Not about a tag
+    validations:
+      required: false
+  - type: input
+    id: app_version
+    attributes:
+      label: App version you use
+      placeholder: "1.1.1"
+    validations:
+      required: false
